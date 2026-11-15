@@ -1,0 +1,158 @@
+================================================================================
+META DATA APPLE APP STORE (ASO OPTIMISED — EN-GB & EN-US)
+================================================================================
+
+App Name (30 chars max — Primary UK/International):
+PetCircle: Pet Care Tracker
+
+Subtitle (30 chars max — Primary UK/International):
+Shared Dog Log & Routines
+
+Optional US Localization (en-US):
+Name (28 chars): PetCircle: Pet Care Tracker
+Subtitle (27 chars): Shared Dog & Pet Care Log
+
+Promotional Text (170 chars max):
+Keep everyone in sync on your pet's care. Track feedings, walks, medications, and vet visits with family and pet sitters. Works 100% offline.
+
+Keywords (100 chars max, comma-separated, no spaces):
+dog,cat,feeding,routine,puppy,walker,sitter,vet,log,medicine,health,handover,schedule,reminders,diary
+
+Primary Category:
+Productivity
+
+Secondary Category:
+Lifestyle
+
+Support URL:
+https://petcircle.app/support
+
+Marketing URL:
+https://petcircle.app
+
+Privacy Policy URL:
+https://petcircle.app/privacy
+
+Terms of Use (EULA) URL:
+https://petcircle.app/terms
+
+Copyright:
+2026 Smart AI Automations Ltd
+
+Description (4000 chars max):
+Never wonder if the dog was fed, walked, or given medication again.
+
+PetCircle keeps families, dog walkers, and pet sitters in complete coordination. Whether managing daily routines across a busy household or handing off care to a weekend sitter, PetCircle ensures every meal, medication, walk, and vet note is logged clearly and shared instantly.
+
+Built local-first and privacy-minded: start using PetCircle immediately with zero forced logins or cloud accounts. When you're ready to share, invite family and carers with secure, expiring access codes.
+
+LIVE TODAY DASHBOARD & ROUTINES
+• See at a glance whether today's breakfast, dinner, or lunchtime walk has been completed
+• Custom daily routines for meals, exercise, training, grooming, and medications
+• Built-in grace periods prevent accidental double-feeding and alert you when care is overdue
+• Supports multiple pets: easily toggle between dogs, cats, and small animals
+
+SHARED CARE LOG & ACTIVITY FEED
+• Log feeding times, food types, and exact gram portions
+• Record walks with duration, route notes, and bathroom updates
+• Track medications with dosage, administration times, and next-dose alerts
+• Carer attribution shows exactly who logged each event and when
+
+PET HEALTH, VET & WEIGHT TRACKING
+• Log weight check-ins and view clear visual weight trend graphs
+• Record vaccination records, booster reminders, and vet appointment notes
+• Track symptoms, allergies, and dietary reactions with date-stamped notes
+• Keep microchip numbers, pet insurance policy IDs, and emergency clinic phone numbers in one tap
+
+SECURE SITTER PASS & HANDOVER CARDS
+• Going away for the weekend? Create a secure Sitter Pass with a custom expiry date
+• Handover view presents essential routines, feeding portions, vet contacts, and house rules
+• Sensitive records (insurance policy details and microchip numbers) stay private
+• Revoke carer access anytime in one tap
+
+EMERGENCY KIT & LOST PET POSTER
+• Emergency contacts and 24-hour vet hospital access ready when seconds count
+• Instant Lost Pet Poster generator formats a high-resolution, printable A4 poster with your pet's photo, identifying markings, microchip ID, and emergency contact
+
+100% PRIVATE & OFFLINE READY
+• Works entirely offline on your device — perfect for walks in rural areas and basements
+• No mandatory accounts, zero advertisements, and zero third-party tracking
+• Clear and export your pet's complete history anytime
+
+Support: hello@smartaiautomations.co.uk
+Privacy Policy: https://petcircle.app/privacy
+Terms of Use: https://petcircle.app/terms
+
+
+What's New in Version 1.0.0:
+Welcome to PetCircle 1.0!
+• Complete pet care tracking for families, dog walkers, and pet sitters
+• Live daily routine dashboard with overdue grace period alerts
+• Comprehensive care log for meals, walks, medications, and general notes
+• Health vault for weight tracking, clinical notes, and vaccine reminders
+• Time-limited Sitter Passes and instant printable Lost Pet Posters
+
+
+App Review Information:
+Contact First Name: Ioan
+Contact Last Name: Braga
+Contact Email: hello@smartaiautomations.co.uk
+Contact Phone: +447493206689
+Demo Account Required: No (PetCircle works immediately in local mode with zero sign-in required).
+
+Notes for App Review:
+PetCircle is designed local-first. Reviewers can immediately test all core functionality (Today dashboard, care logging, health records, routines, and safety kit) without creating an account. An optional cloud circle feature powered by Supabase allows users to test cross-device family sharing if desired. All camera and photo permissions are used strictly for user-selected pet profile photos and lost-pet posters. No background audio or tracking is used.
+
+================================================================================
+GOOGLE PLAY STORE METADATA (EN-GB & EN-US)
+================================================================================
+
+App Title (30 chars max):
+PetCircle: Pet Care Tracker
+
+Short Description (80 chars max):
+Shared pet care for families and sitters. Log meals, walks, meds & vet records.
+
+Full Description (4000 chars max):
+Never wonder if your pet was fed, walked, or given medication again.
+
+PetCircle keeps families, dog walkers, and pet sitters in complete coordination. Whether managing daily routines across a busy household or handing off care to a weekend sitter, PetCircle ensures every meal, medication, walk, and vet note is logged clearly and shared instantly.
+
+Built local-first and privacy-minded: start using PetCircle immediately with zero forced logins or cloud accounts. When you're ready to share, invite family and carers with secure, expiring access codes.
+
+🐾 LIVE TODAY DASHBOARD & ROUTINES
+• See at a glance whether today's breakfast, dinner, or lunchtime walk has been completed
+• Custom daily routines for meals, exercise, training, grooming, and medications
+• Built-in grace periods prevent accidental double-feeding and alert you when care is overdue
+• Supports multiple pets: easily toggle between dogs, cats, and small animals
+
+📋 SHARED CARE LOG & ACTIVITY FEED
+• Log feeding times, food types, and exact gram portions
+• Record walks with duration, route notes, and bathroom updates
+• Track medications with dosage, administration times, and next-dose alerts
+• Carer attribution shows exactly who logged each event and when
+
+⚖️ PET HEALTH, VET & WEIGHT TRACKING
+• Log weight check-ins and view clear visual weight trend graphs
+• Record vaccination records, booster reminders, and vet appointment notes
+• Track symptoms, allergies, and dietary reactions with date-stamped notes
+• Keep microchip numbers, pet insurance policy IDs, and emergency clinic phone numbers in one tap
+
+🤝 SECURE SITTER PASS & HANDOVER CARDS
+• Going away for the weekend? Create a secure Sitter Pass with a custom expiry date
+• Handover view presents essential routines, feeding portions, vet contacts, and house rules
+• Sensitive records (insurance policy details and microchip numbers) stay private
+• Revoke carer access anytime in one tap
+
+🚨 EMERGENCY KIT & LOST PET POSTER
+• Emergency contacts and 24-hour vet hospital access ready when seconds count
+• Instant Lost Pet Poster generator formats a high-resolution, printable A4 poster with your pet's photo, identifying markings, microchip ID, and emergency contact
+
+🔒 100% PRIVATE & OFFLINE READY
+• Works entirely offline on your device — perfect for walks in rural areas and basements
+• No mandatory accounts, zero advertisements, and zero third-party tracking
+• Clear and export your pet's complete history anytime
+
+Support: hello@smartaiautomations.co.uk
+Privacy Policy: https://petcircle.app/privacy
+Terms of Use: https://petcircle.app/terms

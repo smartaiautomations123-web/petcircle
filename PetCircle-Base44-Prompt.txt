@@ -1,0 +1,110 @@
+Build the public marketing and support website for PetCircle, an iOS and Android app for coordinating shared pet care, feeding routines, activity logs, health records, and sitter handovers. Build it in the Base44 editor as a public website. Use British English. The main audience is multi-person pet households (families, couples, housemates), busy pet owners, professional dog walkers, and temporary pet sitters. Give visitors a clear view of how daily care routines and sitter handovers work before they download.
+
+1. Scope and launch settings
+
+- This website presents the existing mobile app. Keep the public site read-only apart from links and interactive routine/handover sample previews. Use a direct support email link: hello@smartaiautomations.co.uk. Leave out visitor accounts, payments, a live pet database, or backend connections on the public site.
+- Use PetCircle as the brand and hello@smartaiautomations.co.uk as the support address. Provide one central place in the editor for the owner to set the confirmed production URL, public Apple App Store URL (App ID: 6835166713, Bundle ID: com.petcirclecare.app), and public Google Play Console URL (Package: com.petcirclecare.app). Leave unconfirmed store links blank or showing "Download on App Store" / "Get it on Google Play" once verified. Until then, use "Explore Sitter Handover" as the primary CTA and "Check Availability" on the download page.
+- Build with approved legal content matching the mobile app's in-app Privacy Policy and Terms word-for-word.
+
+2. Brand and layout
+
+- Match the mobile app's brand palette exactly:
+  • Background Warm Paper: #F7F6F2
+  • Card Surface: #FFFFFF
+  • Primary Dark Green: #143D31
+  • Accent Forest Green: #356249
+  • Soft Mint: #E7F0E6
+  • Muted Sage Green: #BBD0B9
+  • Dark Ink Text: #202923
+  • Muted Slate Text: #58645C
+  • Border Line: #E3E7DF
+  • Alert Peach / Warm Amber: #F4E6D9 / #A14431
+- Typography: Use 'DM Serif Text' for primary page titles (H1/H2) and 'Manrope' for body copy, buttons, badges, and metadata.
+- Hero layout: On desktop, place the hero value proposition on the left beside a crisp 3D device preview of the Today dashboard and an overlapping Sitter Handover card on the right. On mobile, stack copy, primary CTA, and preview vertically.
+- Use the app's real asset imagery: Milo the golden retriever, genuine routine icons, and authentic care feed items.
+
+3. Fact-locked product copy
+
+- Local-first architecture: PetCircle works completely offline without requiring any account creation or cloud connection. All pet profiles, meal logs, routines, and safety documents live in secure device sandbox storage.
+- Optional shared circles: Users can create an optional cloud account powered by Supabase to invite family members, dog walkers, and sitters to share real-time updates across multiple iOS and Android devices.
+- Today routine tracker: Tracks daily breakfast, dinner, medications, walks, and grooming with configurable grace periods to prevent accidental double-feeding and alert carers when care is overdue.
+- Care activity feed: Logs meals (grams & food type), walks (duration, waste notes), medications (dosage, administration timestamp, next due), and observations with carer attribution.
+- Sitter Pass & Handover: Create time-limited sitter passes with automatic expiry. Sensitive records (insurance policy details and microchip numbers) are automatically withheld from sitter view.
+- Emergency Kit & Lost Pet Poster: Stores 24-hour vet clinic contacts, microchip ID, and insurance policies, and generates an instant, high-resolution printable A4 lost pet poster.
+- Exclusions: No fake ratings, no invented testimonials, no medical diagnostics guarantees.
+
+4. Page-by-page copy, H1s & meta tags
+
+Header: PetCircle logo -> Home, Features, Sitter Handover, Download, Support. Primary CTA: "Get PetCircle".
+Footer: Home, Features, Sitter Handover, Download, Support, Privacy Policy, Terms, Account Deletion, Copyright 2026 Smart AI Automations Ltd.
+
+/ — Home
+Title tag: Shared Pet Care & Routine Tracker | PetCircle
+Meta description: Coordinate feedings, walks, medications, and sitter handovers with family and carers. PetCircle keeps your pet's care in sync. 100% offline ready.
+H1: Never wonder if the dog was fed, walked, or medicated again.
+Supporting copy: Coordinate daily pet care with family, dog walkers, and sitters. Live routine dashboards, shared activity feeds, and secure time-limited sitter passes.
+Primary CTA: Explore Sitter Handover. Secondary CTA: See Features.
+
+/features — Features
+Title tag: Features: Routines, Care Log & Health | PetCircle
+Meta description: Discover PetCircle features: live feeding tracker, walk logging, medication reminders, weight graphs, vet vault, and sitter passes.
+H1: Complete pet care coordination, from morning kibble to bedtime walks.
+Sections:
+• Live Today Dashboard & Routine Grace Periods
+• Shared Care Activity Feed with Carer Attribution
+• Health Records, Weight Graphs & Vaccine Reminders
+• Sitter Pass & Sensitive Data Protection
+• Emergency Kit & 1-Tap Printable Lost Pet Posters
+• 100% Local-First Offline Privacy
+
+/sitter-handover — Sitter Handover
+Title tag: Pet Sitter Handover & Care Instructions | PetCircle
+Meta description: See how PetCircle creates seamless, secure sitter handover cards with routines, feeding portions, vet contacts, and sensitive data protection.
+H1: Peace of mind for you. Perfect clarity for your pet sitter.
+Features: Interactive sample handover card for Milo with feeding schedule, emergency numbers, house rules, and protected insurance details. Working "Print Handover PDF" demo button.
+
+/download — Download
+Title tag: Download PetCircle for iOS & Android
+Meta description: Get PetCircle on Apple App Store and Google Play. Start coordinating your pet's care today.
+H1: Get PetCircle for your family & carers
+Store links: Apple App Store (com.petcirclecare.app) and Google Play (com.petcirclecare.app).
+
+/support — Support & FAQs
+Title tag: PetCircle Support & FAQs
+Meta description: Help with offline care logging, shared circles, sitter passes, data deletion, and notification settings in PetCircle.
+H1: PetCircle Support
+Direct contact: hello@smartaiautomations.co.uk. Visible FAQs answering: "Does PetCircle work offline?", "Do I need an account to use PetCircle?", "How do sitter passes work?", "Can multiple family members log care?", "How do I export or delete my data?".
+
+/privacy — Privacy Policy
+Title tag: Privacy Policy | PetCircle
+Meta description: Read the PetCircle Privacy Policy. Published by Smart AI Automations Ltd. Local-first storage, no tracking, and complete user data control.
+H1: Privacy Policy for PetCircle
+Verbatim legal text synchronised with the mobile app.
+
+/terms — Terms & Conditions
+Title tag: Terms of Use | PetCircle
+Meta description: Review the terms and conditions for PetCircle mobile application and website services.
+H1: Terms and Conditions
+Verbatim standard terms including disclaimer of veterinary advice and user responsibility.
+
+/account-deletion — Account & Data Deletion
+Title tag: Account & Data Deletion | PetCircle
+Meta description: Instructions on how to permanently delete your PetCircle account, shared circles, and local device records.
+H1: Delete Your PetCircle Account & Data
+Step-by-step instructions for in-app deletion and email request handling.
+
+5. SEO, GEO & accessibility rules
+- Semantic HTML landmarks (<header>, <main>, <section>, <footer>, <nav>).
+- Strict 1 H1 per page. All images with descriptive alt text.
+- Full Schema.org JSON-LD structured data for WebSite and SoftwareApplication (operatingSystem: "iOS, Android", applicationCategory: "ProductivityApplication").
+- Open Graph and Twitter card meta tags.
+
+6. Visitor tracking off by default
+- Keep third-party cookies, tracking pixels, and visitor tracking off by default in Base44 settings.
+
+7. Verbatim legal text
+- Full privacy policy naming Smart AI Automations Ltd and hello@smartaiautomations.co.uk.
+
+8. Owner launch handoff checklist
+- DNS CNAME mapping for custom domain (e.g. petcircle.app).
+- App Store and Play Store live URL verification.

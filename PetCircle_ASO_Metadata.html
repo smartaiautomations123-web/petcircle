@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PetCircle — ASO Store Listing & Metadata Pack (Apple & Google)</title>
+  <style>
+    :root {
+      --bg: #0C1210;
+      --card: #141E1A;
+      --card-border: #23352E;
+      --ink: #EAF3ED;
+      --muted: #8AA497;
+      --forest: #143628;
+      --forest-light: #1D4B39;
+      --accent: #28B07A;
+      --accent-glow: rgba(40, 176, 122, 0.15);
+      --code-bg: #0A0F0D;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      padding: 36px 20px 80px;
+    }
+    .container { max-width: 960px; margin: 0 auto; }
+    header {
+      background: linear-gradient(135deg, #143628 0%, #0A1B14 100%);
+      border: 1px solid var(--card-border);
+      color: #fff;
+      padding: 32px;
+      border-radius: 20px;
+      margin-bottom: 28px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .mark {
+      width: 56px;
+      height: 56px;
+      border-radius: 16px;
+      background: var(--forest-light);
+      border: 1px solid var(--accent);
+      color: var(--accent);
+      display: grid;
+      place-items: center;
+      font-weight: 900;
+      font-size: 24px;
+      flex-shrink: 0;
+    }
+    header h1 { margin: 0; font-size: 26px; letter-spacing: -0.02em; }
+    header p { margin: 6px 0 0; color: var(--muted); font-size: 14px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--card-border);
+      border-radius: 18px;
+      padding: 24px 28px;
+      margin-bottom: 22px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+    }
+    .badge {
+      display: inline-block;
+      background: var(--forest-light);
+      color: var(--accent);
+      font-weight: 700;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 4px 12px;
+      border-radius: 999px;
+      margin-bottom: 12px;
+    }
+    h2 { margin: 0 0 16px; font-size: 20px; color: #fff; }
+    .field { margin-bottom: 18px; }
+    .field-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+    .field-label {
+      font-weight: 600;
+      font-size: 13px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .char-count { font-size: 12px; color: var(--accent); font-weight: 600; }
+    .copy-btn {
+      background: var(--forest-light);
+      border: 1px solid var(--accent);
+      color: var(--accent);
+      padding: 4px 10px;
+      font-size: 12px;
+      font-weight: 600;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .copy-btn:hover { background: var(--accent); color: #0C1210; }
+    .code-box {
+      background: var(--code-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 10px;
+      padding: 12px 14px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 13px;
+      color: #E2ECE6;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    @media (max-width: 680px) { .grid-2 { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <div class="mark">🐾</div>
+    <div>
+      <h1>PetCircle: Pet Care Tracker — ASO Store Pack</h1>
+      <p>Apple App Store Connect & Google Play Console Metadata • Smart AI Automations Ltd</p>
+    </div>
+  </header>
+
+  <!-- APPLE APP STORE METADATA -->
+  <div class="card">
+    <span class="badge">Apple App Store Connect</span>
+    <h2>iOS App Store Metadata (En-GB & En-US)</h2>
+
+    <div class="grid-2">
+      <div class="field">
+        <div class="field-header">
+          <span class="field-label">App Name (30 max)</span>
+          <div>
+            <span class="char-count">28 chars</span>
+            <button class="copy-btn" onclick="copyText('apple-name')">Copy</button>
+          </div>
+        </div>
+        <div class="code-box" id="apple-name">PetCircle: Pet Care Tracker</div>
+      </div>
+
+      <div class="field">
+        <div class="field-header">
+          <span class="field-label">Subtitle (30 max)</span>
+          <div>
+            <span class="char-count">26 chars</span>
+            <button class="copy-btn" onclick="copyText('apple-sub')">Copy</button>
+          </div>
+        </div>
+        <div class="code-box" id="apple-sub">Shared Dog Log & Routines</div>
+      </div>
+    </div>
+
+    <div class="field">
+      <div class="field-header">
+        <span class="field-label">Keywords (100 max, comma-separated, no spaces)</span>
+        <div>
+          <span class="char-count">99 chars</span>
+          <button class="copy-btn" onclick="copyText('apple-keywords')">Copy</button>
+        </div>
+      </div>
+      <div class="code-box" id="apple-keywords">dog,cat,feeding,routine,puppy,walker,sitter,vet,log,medicine,health,handover,schedule,reminders,diary</div>
+    </div>
+
+    <div class="field">
+      <div class="field-header">
+        <span class="field-label">Promotional Text (170 max)</span>
+        <div>
+          <span class="char-count">139 chars</span>
+          <button class="copy-btn" onclick="copyText('apple-promo')">Copy</button>
+        </div>
+      </div>
+      <div class="code-box" id="apple-promo">Keep everyone in sync on your pet's care. Track feedings, walks, medications, and vet visits with family and pet sitters. Works 100% offline.</div>
+    </div>
+
+    <div class="grid-2">
+      <div class="field">
+        <div class="field-header">
+          <span class="field-label">Primary Category</span>
+          <button class="copy-btn" onclick="copyText('apple-cat1')">Copy</button>
+        </div>
+        <div class="code-box" id="apple-cat1">Productivity</div>
+      </div>
+      <div class="field">
+        <div class="field-header">
+          <span class="field-label">Secondary Category</span>
+          <button class="copy-btn" onclick="copyText('apple-cat2')">Copy</button>
+        </div>
+        <div class="code-box" id="apple-cat2">Lifestyle</div>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="field">
+        <div class="field-header">
+          <span class="field-label">Support URL</span>
+          <button class="copy-btn" onclick="copyText('apple-support')">Copy</button>
+        </div>
+        <div class="code-box" id="apple-support">https://petcircle.app/support</div>
+      </div>
+      <div class="field">
+        <div class="field-header">
+          <span class="field-label">Marketing URL</span>
+          <button class="copy-btn" onclick="copyText('apple-market')">Copy</button>
+        </div>
+        <div class="code-box" id="apple-market">https://petcircle.app</div>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="field">
+        <div class="field-header">
+          <span class="field-label">Privacy Policy URL</span>
+          <button class="copy-btn" onclick="copyText('apple-priv')">Copy</button>
+        </div>
+        <div class="code-box" id="apple-priv">https://petcircle.app/privacy</div>
+      </div>
+      <div class="field">
+        <div class="field-header">
+          <span class="field-label">Copyright</span>
+          <button class="copy-btn" onclick="copyText('apple-copy')">Copy</button>
+        </div>
+        <div class="code-box" id="apple-copy">2026 Smart AI Automations Ltd</div>
+      </div>
+    </div>
+
+    <div class="field">
+      <div class="field-header">
+        <span class="field-label">Apple Store Description (4000 max)</span>
+        <div>
+          <button class="copy-btn" onclick="copyText('apple-desc')">Copy Description</button>
+        </div>
+      </div>
+      <div class="code-box" id="apple-desc">Never wonder if the dog was fed, walked, or given medication again.
+
+PetCircle keeps families, dog walkers, and pet sitters in complete coordination. Whether managing daily routines across a busy household or handing off care to a weekend sitter, PetCircle ensures every meal, medication, walk, and vet note is logged clearly and shared instantly.
+
+Built local-first and privacy-minded: start using PetCircle immediately with zero forced logins or cloud accounts. When you're ready to share, invite family and carers with secure, expiring access codes.
+
+LIVE TODAY DASHBOARD & ROUTINES
+• See at a glance whether today's breakfast, dinner, or lunchtime walk has been completed
+• One-tap quick logging for meals, water refreshes, potty breaks, medications, and training sessions
+• Clean timeline feed showing who completed each activity and when
+
+SHARED CARE CIRCLE & SITTER PASS
+• Invite household members, partners, and family to co-manage pets seamlessly
+• Generate temporary Sitter Passes with read & log access for dog walkers and weekend boarders
+• Automatically protect sensitive information: insurance numbers, vet microchips, and home notes stay private from temporary sitters
+
+MEDICATION & DOSING PROTOCOLS
+• Log exact dosages, schedules, and administration times
+• Prevent dangerous double-dosing across family members
+• Clear instructions attached to each prescription for sitters
+
+WEIGHT TRACKING & CLINICAL RECORDS
+• Record veterinary visits, clinical observations, and diagnosis notes
+• Track weight trends over time with visual growth curves
+• Store booster vaccination due dates, worming schedules, and flea prevention alerts
+
+OFFLINE-FIRST ARCHITECTURE
+• 100% functional without cellular signal or Wi-Fi (park walks, remote trails, or clinic basements)
+• Automatic background synchronisation when connectivity returns
+• No account registration required to start logging
+
+Designed and supported by Smart AI Automations Ltd. For feedback and support, contact hello@smartaiautomations.co.uk.</div>
+    </div>
+  </div>
+
+  <!-- GOOGLE PLAY CONSOLE METADATA -->
+  <div class="card">
+    <span class="badge">Google Play Console</span>
+    <h2>Android Play Store Listing (en-GB & en-US)</h2>
+
+    <div class="field">
+      <div class="field-header">
+        <span class="field-label">App Name (30 max)</span>
+        <div>
+          <span class="char-count">28 chars</span>
+          <button class="copy-btn" onclick="copyText('google-name')">Copy</button>
+        </div>
+      </div>
+      <div class="code-box" id="google-name">PetCircle: Pet Care Tracker</div>
+    </div>
+
+    <div class="field">
+      <div class="field-header">
+        <span class="field-label">Short Description (80 max)</span>
+        <div>
+          <span class="char-count">77 chars</span>
+          <button class="copy-btn" onclick="copyText('google-short')">Copy</button>
+        </div>
+      </div>
+      <div class="code-box" id="google-short">Shared pet care log: track feeding, walks, medications & sitter handovers.</div>
+    </div>
+
+    <div class="field">
+      <div class="field-header">
+        <span class="field-label">Google Play Full Description (4000 max)</span>
+        <div>
+          <button class="copy-btn" onclick="copyText('google-desc')">Copy Description</button>
+        </div>
+      </div>
+      <div class="code-box" id="google-desc">Never wonder if the dog was fed, walked, or given medication again.
+
+PetCircle keeps families, dog walkers, and pet sitters in complete coordination. Whether managing daily routines across a busy household or handing off care to a weekend sitter, PetCircle ensures every meal, medication, walk, and vet note is logged clearly and shared instantly.
+
+Built local-first and privacy-minded: start using PetCircle immediately with zero forced logins or cloud accounts. When you're ready to share, invite family and carers with secure, expiring access codes.
+
+LIVE TODAY DASHBOARD & ROUTINES
+• See at a glance whether today's breakfast, dinner, or lunchtime walk has been completed
+• One-tap quick logging for meals, water refreshes, potty breaks, medications, and training sessions
+• Clean timeline feed showing who completed each activity and when
+
+SHARED CARE CIRCLE & SITTER PASS
+• Invite household members, partners, and family to co-manage pets seamlessly
+• Generate temporary Sitter Passes with read & log access for dog walkers and weekend boarders
+• Automatically protect sensitive information: insurance numbers, vet microchips, and home notes stay private from temporary sitters
+
+MEDICATION & DOSING PROTOCOLS
+• Log exact dosages, schedules, and administration times
+• Prevent dangerous double-dosing across family members
+• Clear instructions attached to each prescription for sitters
+
+WEIGHT TRACKING & CLINICAL RECORDS
+• Record veterinary visits, clinical observations, and diagnosis notes
+• Track weight trends over time with visual growth curves
+• Store booster vaccination due dates, worming schedules, and flea prevention alerts
+
+OFFLINE-FIRST ARCHITECTURE
+• 100% functional without cellular signal or Wi-Fi (park walks, remote trails, or clinic basements)
+• Automatic background synchronisation when connectivity returns
+• No account registration required to start logging
+
+Designed and supported by Smart AI Automations Ltd. For feedback and support, contact hello@smartaiautomations.co.uk.</div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  function copyText(id) {
+    const el = document.getElementById(id);
+    const text = el.innerText || el.textContent;
+    navigator.clipboard.writeText(text).then(() => {
+      const btn = event.target;
+      const orig = btn.innerText;
+      btn.innerText = 'Copied!';
+      setTimeout(() => { btn.innerText = orig; }, 1500);
+    });
+  }
+</script>
+</body>
+</html>
