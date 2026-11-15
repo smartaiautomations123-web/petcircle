@@ -1,0 +1,43 @@
+{
+  "cli": {
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "ios": {
+        "credentialsSource": "local"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "android": {
+        "serviceAccountKeyPath": "D:\\Old Downloads Folder\\nutrify-ai-489907-aa24feeaf434.json",
+        "track": "internal"
+      },
+      "ios": {
+        "appleId": "smartaiautomations123@gmail.com",
+        "ascAppId": "6835166713",
+        "appleTeamId": "39UA335BP4",
+        "ascApiKeyPath": "D:\\Old Downloads Folder\\AuthKey_A8D3R3ZG73.p8",
+        "ascApiKeyIssuerId": "d4004cb8-6fa8-4406-be22-e2df94989167",
+        "ascApiKeyId": "A8D3R3ZG73",
+        "language": "en-GB"
+      }
+    }
+  }
+}
